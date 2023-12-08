@@ -1,0 +1,2 @@
+print("Main package initialized")
+
