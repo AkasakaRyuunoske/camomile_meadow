@@ -10,6 +10,7 @@ application.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 database = SQLAlchemy(application)
 
 from Camomile_Meadow_.Entity import Example
-from Camomile_Meadow_.Controller import index_controller
+from Camomile_Meadow_.Controller import index_controller, debug_controller
 
 application.register_blueprint(index_controller.api_index_controller_bp)
+application.register_blueprint(debug_controller.debug_index_controller_bp)
