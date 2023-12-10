@@ -12,3 +12,10 @@ class Example1(database.Model):
     def __repr__(self):
         return "{\"name\":\"" + self.name + "\", \"id\":" + str(self.id) + "}"
 
+    @property
+    def serialized(self):
+        """Return object data in serializable format"""
+        return {
+            'id': self.id,
+            'name': self.name
+        }
