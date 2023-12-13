@@ -9,4 +9,4 @@ print("api_index_controller_bp entity: ready")
 def api_index_controller():
     # time.sleep(5)
 
-    return {'message': example1_repository.select_all()}
+    return {'result': example1_repository.select_all()}

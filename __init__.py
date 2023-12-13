@@ -1,2 +1,0 @@
-print("Main package initialized")
-

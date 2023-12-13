@@ -1,6 +1,5 @@
 from Camomile_Meadow_ import application, database
 import logging as log
-from Camomile_Meadow_.Entity import Example, Companies
 
 """ 
     Adds after each request these headers. Access-Control-Allow-Origin & Access-Control-Allow-Headers
